@@ -39,13 +39,26 @@
             height: 45px;
             fill: white;
         }
-        /* Hiệu ứng 7 màu cầu vồng chạy từ trái qua phải + bóng chữ để dễ nhìn trên nền ảnh */
+        
+        /* Hiệu ứng 7 màu cầu vồng chạy qua chạy lại (trái <-> phải) */
         .rainbow-text {
-            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #00ffff, #0000ff, #8b00ff);
+            background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #00ffff, #0000ff, #8b00ff, #ff0000);
+            background-size: 200% auto;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+            animation: rainbowMove 3s linear infinite alternate;
         }
+
+        @keyframes rainbowMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
         /* Chữ Locket Gold to */
         .app-name {
             font-size: 26px;
