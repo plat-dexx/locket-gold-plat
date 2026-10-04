@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold - PlatDex</string>
+    <string>Locket Gold VIP - Plat Dex</string>
     <key>PayloadDescription</key>
-    <string>Cau hinh kich hoat Locket Gold vinh vien by PlatDex ( https://t.me/share_ioss )</string>
+    <string>Cau hinh kich hoat Locket Gold vinh vien by PlatDex (https://t.me/share_ioss)</string>
     <key>PayloadIdentifier</key>
-    <string>com.platdex.locket.gold</string>
+    <string>com.dinostore.locket.gold</string>
     <key>PayloadOrganization</key>
-    <string>PlatDex ( https://t.me/share_ioss )</string>
+    <string>PlatDex (https://t.me/share_ioss)</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
@@ -26,16 +26,16 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.platdex.locket.rootca</string>
+            <string>com.dinostore.locket.rootca</string>
             <key>PayloadUUID</key>
             <string>707fb153-ab2b-4028-af46-98fa3b90a189</string>
             <key>PayloadDisplayName</key>
-            <string>Plat Dex - RevenueCat Root CA</string>
+            <string>PlatDex - RevenueCat Root CA</string>
             <key>PayloadDescription</key>
             <string>Chung chi bao mat xac thuc Locket Gold by Plat Dex</string>
             <key>PayloadContent</key>
             <data>
-            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
+            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
             </data>
         </dict>
         <dict>
@@ -44,7 +44,7 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.platdex.locket.dns</string>
+            <string>com.dinostore.locket.dns</string>
             <key>PayloadUUID</key>
             <string>a18d9a8a-adde-4206-9451-afcfe8e25680</string>
             <key>PayloadDisplayName</key>
