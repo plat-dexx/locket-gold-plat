@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold - Plat•Dex</string>
+    <string>Locket Gold - PlatDex</string>
     <key>PayloadDescription</key>
-    <string>Cấu Hình Kích Hoạt LocketGold Vĩnh Viễn By Plat (https://t.me/share_ioss)</string>
+    <string>Cau hinh kich hoat Locket Gold vinh vien by PlatDex ( https://t.me/share_ioss )</string>
     <key>PayloadIdentifier</key>
     <string>com.platdex.locket.gold</string>
     <key>PayloadOrganization</key>
-    <string>Plat•Dex (https://t.me/share_ioss)</string>
+    <string>PlatDex ( https://t.me/share_ioss )</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
@@ -20,39 +20,37 @@
     <integer>1</integer>
     <key>PayloadContent</key>
     <array>
-        <!-- Phần 1: Cấu hình chứng chỉ Root CA -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.security.root</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.dinostore.locket.rootca</string>
+            <string>com.platdex.locket.rootca</string>
             <key>PayloadUUID</key>
             <string>707fb153-ab2b-4028-af46-98fa3b90a189</string>
             <key>PayloadDisplayName</key>
-            <string>Plat•Dex - Root CA</string>
+            <string>Plat Dex - RevenueCat Root CA</string>
             <key>PayloadDescription</key>
-            <string>Chứng Chỉ Bảo Mật Xác Thực Locket Gold By Plat</string>
+            <string>Chung chi bao mat xac thuc Locket Gold by Plat Dex</string>
             <key>PayloadContent</key>
             <data>
             MIIDWTCCAkGgAwIBAgIUR5+4HrMkpXDKRXGcPV7nxDCJeBUwDQYJKoZIhvcNAQELBQAwOjEbMBkGA1UEAwwSYXBpLnJldmVudWVjYXQuY29tMRswGQYDVQQKDBJSZXZlbnVlQ2F0IE1vY2sgQ0EwHhcNMjYxMDAzMDUyNDIzWhcNMzYwOTMwMDUyNDIzWjA6MRswGQYDVQQDDBJhcGkucmV2ZW51ZWNhdC5jb20xGzAZBgNVBAoMElJldmVudWVDYXQgTW9jayBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM4MnQIrCYnFRc/exD5ZzoE10docw3gi1I0Ed3Ljw5iN97ERRjFF0+yTfMuoLTmQd0JXuRqC2TBZ7qxP4yUdrV9vjXScX0TmyFLp0goZuHGj3B1SkCUHVYxR3qaSrX6/nLfLghVFsCn93rULjImXiip0wDE0H+r0DWqEDKdhKpgGuxo/gU39yP5VgH+FfhJyPgj4ddkKrM5u2IQEEUhtJL7D/cXmnGMb+ArgkcVwU9iimh652YnYcfLUmzISpnAviPly02ZTm1REosKztjVqy7oPH0f/GQpR8OJKFnm6N2DuFy+QWO2c9LuuM1A1XQMglYQg9c4NixzX5vOSFbiwu80CAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAaYwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0RBBYwFIISYXBpLnJldmVudWVjYXQuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQANIEwm0QcPlpz/gkhyIT3wCePEjSVukhXYa8RCsEMJnLaHIwP9L62m77+TknnwIyaDDXRQo3Pntqu5pyNbx2Ewn5Tdqvf86GYhrkAXznXMNgf/OdbC91SrNEvR8QN0YwvgSXehwyAad7NjgsjyIhFZYRaFRk3o9Jwtvr+qwCBvaR98TdIFRR9lX4J2GdTygIAYCByaDF/3ZJR62m9fvbT4qu1gF0oS7vZ4EuPeRKGla3nCNUH3S/VCj7pSp43g0XPoZn5QP8nYvWf9yWVjErw5FZHrEZgPXofZw2xa1Mgr8wz14QZTAECqQQxkxpMdlyjsLHDA8Sts6CMGaS4ekITh
             </data>
         </dict>
-        <!-- Phần 2: Cấu hình DNS mã hóa (DoH) -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.dinostore.locket.dns</string>
+            <string>com.platdex.locket.dns</string>
             <key>PayloadUUID</key>
             <string>a18d9a8a-adde-4206-9451-afcfe8e25680</string>
             <key>PayloadDisplayName</key>
-            <string>Plat•Dex - Encrypted DNS</string>
+            <string>Plat Dex - Encrypted DNS</string>
             <key>PayloadDescription</key>
-            <string>Tự Động Điều Hướng Về Sever Plat</string>
+            <string>Tu dong dieu huong RevenueCat ve server PlatDex</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
@@ -62,6 +60,20 @@
                 <key>ServerAddresses</key>
                 <array>
                     <string>103.211.206.10</string>
+                </array>
+                <key>MatchDomains</key>
+                <array>
+                    <string>revenuecat.com</string>
+                    <string>soundcloud.com</string>
+                    <string>alight-creative.cloudfunctions.net</string>
+                    <string>picsart.com</string>
+                    <string>meitu.com</string>
+                    <string>truecaller.com</string>
+                    <string>kinemasters.com</string>
+                    <string>intsig.net</string>
+                    <string>pixocial.com</string>
+                    <string>beautyplus.com</string>
+                    <string>adobe.io</string>
                 </array>
             </dict>
         </dict>
