@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDisplayName</key>
-    <string>Locket Gold VIP - DINO STORE</string>
+    <string>Locket Gold - Plat•Dex</string>
     <key>PayloadDescription</key>
-    <string>Cau hinh kich hoat Locket Gold vinh vien by DINO STORE (https://t.me/+ANBf-NU4j9s5ZjRl)</string>
+    <string>Cấu Hình Kích Hoạt LocketGold Vĩnh Viễn By Plat (https://t.me/share_ioss)</string>
     <key>PayloadIdentifier</key>
-    <string>com.dinostore.locket.gold</string>
+    <string>com.platdex.locket.gold</string>
     <key>PayloadOrganization</key>
     <string>Plat•Dex (https://t.me/share_ioss)</string>
     <key>PayloadRemovalDisallowed</key>
