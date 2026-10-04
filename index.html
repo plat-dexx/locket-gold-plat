@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cài Đặt Cấu Hình - Locket Gold</title>
+    <title>Cài đặt Cấu hình - Locket Gold</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, sans-serif; 
             text-align: center; 
-            padding: 60px 20px 40px 20px; 
-            /* Thêm background ảnh ANH.JPEG */
-            background: url('ANH.JPG') no-repeat center center fixed;
-            background-size: cover;
-            color: #333;
             margin: 0;
+            padding: 20px;
+            /* Background ảnh ANH.JPEG */
+            background: url('ANH.JPEG') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            min-height: 100vh;
+        }
+        /* Khung chứa nội dung căn đều và nổi bật trên ảnh nền */
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            padding: 35px 25px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+            max-width: 400px;
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start; 
-            min-height: 100vh;
+            box-sizing: border-box;
         }
         .logo-container {
-            margin-bottom: 5px;
+            margin-bottom: 12px;
         }
         /* Style cho Logo Locket Gold */
         .locket-logo {
@@ -32,76 +45,84 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 8px 16px rgba(255, 215, 0, 0.3);
+            box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4);
         }
         .locket-logo svg {
             width: 45px;
             height: 45px;
             fill: white;
         }
+        /* Hiệu ứng 7 màu cầu vồng chạy từ trái qua phải cho chữ */
+        .rainbow-text {
+            background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
         /* Chữ Locket Gold to */
         .app-name {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: bold;
-            color: #111;
-            margin-top: 12px;
+            margin-top: 10px;
             margin-bottom: 4px;
         }
         .developer {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             font-size: 14px;
-            color: #666;
-            font-weight: 500;
+            font-weight: 600;
         }
         h1 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #333;
+            font-size: 19px;
+            margin: 0 0 10px 0;
+            font-weight: bold;
         }
         p {
-            color: #666;
-            font-size: 15px;
-            max-width: 400px;
-            margin-bottom: 30px;
+            font-size: 14px;
+            margin: 0 0 25px 0;
             line-height: 1.5;
+            font-weight: 500;
         }
         .btn { 
             background: #007aff; 
             color: white; 
-            padding: 15px 30px; 
+            padding: 14px 24px; 
             text-decoration: none; 
-            border-radius: 12px; 
-            font-size: 16px; 
-            display: inline-block; 
+            border-radius: 14px; 
+            font-size: 15px; 
+            display: block; 
+            width: 100%;
+            box-sizing: border-box;
             font-weight: bold; 
-            box-shadow: 0 4px 10px rgba(0, 122, 255, 0.3);
-            transition: background 0.2s;
+            box-shadow: 0 6px 15px rgba(0, 122, 255, 0.35);
+            transition: background 0.2s, transform 0.1s;
         }
         .btn:hover { 
             background: #0056b3; 
+            transform: translateY(-1px);
         }
     </style>
 </head>
 <body>
-    <div class="logo-container">
-        <!-- Logo Locket Gold -->
-        <div class="locket-logo">
-            <svg viewBox="0 0 24 24">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-            </svg>
+    <div class="container">
+        <div class="logo-container">
+            <!-- Logo Locket Gold -->
+            <div class="locket-logo">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
         </div>
+
+        <div class="app-name rainbow-text">Locket Gold</div>
+
+        <div class="developer rainbow-text">
+            Developer : Plat • Dex
+        </div>
+
+        <h1 class="rainbow-text">Cài đặt Cấu hình Hệ thống</h1>
+        <p class="rainbow-text">Nhấn vào nút bên dưới để tải và cài đặt cấu hình trên thiết bị iOS của bạn.</p>
+        
+        <!-- Thay thế link bên dưới bằng tên tệp mobileconfig thực tế của bạn -->
+        <a href="./config.mobileconfig" class="btn">Tải về Cấu hình (.mobileconfig)</a>
     </div>
-
-    <div class="app-name">Locket Gold</div>
-
-    <div class="developer">
-        Developer : Plat • Dex
-    </div>
-
-    <h1>Cài Đặt Cấu Hình Hệ Thống</h1>
-    <p>Nhấn vào nút bên dưới để tải và cài đặt cấu hình trên thiết bị iOS của bạn.</p>
-    
-    <!-- Thay thế link bên dưới bằng tên tệp mobileconfig thực tế của bạn -->
-    <a href="./config.mobileconfig" class="btn">Tải về Cấu hình (.mobileconfig)</a>
 </body>
 </html>
