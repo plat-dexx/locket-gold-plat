@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>Locket Gold VIP - DINO STORE</string>
+    <key>PayloadDescription</key>
+    <string>Cau hinh kich hoat Locket Gold vinh vien by DINO STORE (https://t.me/+ANBf-NU4j9s5ZjRl)</string>
+    <key>PayloadIdentifier</key>
+    <string>com.dinostore.locket.gold</string>
+    <key>PayloadOrganization</key>
+    <string>Plat•Dex (https://t.me/share_ioss)</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>9c3e537e-ba41-40ea-83ca-256a22b2e79e</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Phần 1: Cấu hình chứng chỉ Root CA -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.dinostore.locket.rootca</string>
+            <key>PayloadUUID</key>
+            <string>707fb153-ab2b-4028-af46-98fa3b90a189</string>
+            <key>PayloadDisplayName</key>
+            <string>Plat•Dex - Root CA</string>
+            <key>PayloadDescription</key>
+            <string>Chứng Chỉ Bảo Mật Xác Thực Locket Gold By Plat</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIDWTCCAkGgAwIBAgIUR5+4HrMkpXDKRXGcPV7nxDCJeBUwDQYJKoZIhvcNAQELBQAwOjEbMBkGA1UEAwwSYXBpLnJldmVudWVjYXQuY29tMRswGQYDVQQKDBJSZXZlbnVlQ2F0IE1vY2sgQ0EwHhcNMjYxMDAzMDUyNDIzWhcNMzYwOTMwMDUyNDIzWjA6MRswGQYDVQQDDBJhcGkucmV2ZW51ZWNhdC5jb20xGzAZBgNVBAoMElJldmVudWVDYXQgTW9jayBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM4MnQIrCYnFRc/exD5ZzoE10docw3gi1I0Ed3Ljw5iN97ERRjFF0+yTfMuoLTmQd0JXuRqC2TBZ7qxP4yUdrV9vjXScX0TmyFLp0goZuHGj3B1SkCUHVYxR3qaSrX6/nLfLghVFsCn93rULjImXiip0wDE0H+r0DWqEDKdhKpgGuxo/gU39yP5VgH+FfhJyPgj4ddkKrM5u2IQEEUhtJL7D/cXmnGMb+ArgkcVwU9iimh652YnYcfLUmzISpnAviPly02ZTm1REosKztjVqy7oPH0f/GQpR8OJKFnm6N2DuFy+QWO2c9LuuM1A1XQMglYQg9c4NixzX5vOSFbiwu80CAwEAAaNXMFUwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAaYwEwYDVR0lBAwwCgYIKwYBBQUHAwEwHQYDVR0RBBYwFIISYXBpLnJldmVudWVjYXQuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQANIEwm0QcPlpz/gkhyIT3wCePEjSVukhXYa8RCsEMJnLaHIwP9L62m77+TknnwIyaDDXRQo3Pntqu5pyNbx2Ewn5Tdqvf86GYhrkAXznXMNgf/OdbC91SrNEvR8QN0YwvgSXehwyAad7NjgsjyIhFZYRaFRk3o9Jwtvr+qwCBvaR98TdIFRR9lX4J2GdTygIAYCByaDF/3ZJR62m9fvbT4qu1gF0oS7vZ4EuPeRKGla3nCNUH3S/VCj7pSp43g0XPoZn5QP8nYvWf9yWVjErw5FZHrEZgPXofZw2xa1Mgr8wz14QZTAECqQQxkxpMdlyjsLHDA8Sts6CMGaS4ekITh
+            </data>
+        </dict>
+        <!-- Phần 2: Cấu hình DNS mã hóa (DoH) -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.dinostore.locket.dns</string>
+            <key>PayloadUUID</key>
+            <string>a18d9a8a-adde-4206-9451-afcfe8e25680</string>
+            <key>PayloadDisplayName</key>
+            <string>Plat•Dex - Encrypted DNS</string>
+            <key>PayloadDescription</key>
+            <string>Tự Động Điều Hướng Về Sever Plat</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://api.revenuecat.com/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>103.211.206.10</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
