@@ -9,7 +9,7 @@
     <key>PayloadIdentifier</key>
     <string>com.dinostore.locket.gold</string>
     <key>PayloadOrganization</key>
-    <string>Plat • Dex</string>
+    <string>PlatDex</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
