@@ -66,6 +66,8 @@ MIIEbDCCA1SgAwIBAgIUUOy1KCm2iTJwplwSpOOdbUjsj68wDQYJKoZIhvcNAQELBQAwKjETMBEGA1UE
                 <key>MatchDomains</key>
                 <array>
                     <string>revenuecat.com</string>
+                    <string>8.8.8.8</string>
+                    <string>8.8.4.4</string>
                 </array>
             </dict>
         </dict>
